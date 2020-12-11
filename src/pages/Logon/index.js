@@ -13,8 +13,8 @@ export default function Logon(){
                 <img src={logoImg} alt="Be The Hero" />
                 <form>
                     <h1>Faça seu logon</h1>
-                    <imput placeholder="Sua ID"/>
-                    <button type="submit">Entrar</button>
+                    <input placeholder="Sua ID"/>
+                    <button className="button" type="submit">Entrar</button>
                     <a href="/register">
                         <FiLogIn size={16} color="#E02041" />
                         Não tenho cadastro
